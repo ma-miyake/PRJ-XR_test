@@ -17,9 +17,10 @@
   <!-- AR コンテンツの定義。 -->
   <a-scene embedded arjs="debugUIEnabled:false" vr-mode-ui="enabled:false">
     <a-marker preset="custom" type="pattern" url="pattern-marker-Findix.patt">
-      <a-plane src="./demo_capture.jpg" position="0 0.6 0"></a-plane>
-
-      <a-plane position="0 0.6 0.51" width="1.0" height="1.0" material="shader:html;target:#target;fps:24;width:640;height:640"></a-plane>
+      <a-plane src="./demo_capture.jpg" position="0 0 0" rotation="0 0 0" width="1" height="1"></a-plane>
+      
+      
+      
     </a-marker>
 
     <a-entity camera></a-entity>
